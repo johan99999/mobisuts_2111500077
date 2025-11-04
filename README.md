@@ -1,6 +1,8 @@
 # mobisuts_2111500077
 Ujian Tengah Semester | Aplikasi Mobile Untuk Bisnis | Kelompok 13
 
+- Link Desain Awal : https://www.figma.com/design/tHcYdXpIAUV8QXIyU8Oi7O/mobisuts_2111500077?node-id=1-108&t=rlUtfy7lF8A9mP4B-1
+
 Anggota :
 * Han Lie (2111500077)
 * Shanda Aura (2211500071)
