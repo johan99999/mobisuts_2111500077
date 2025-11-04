@@ -20,7 +20,7 @@ public class SplashScreen extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), e.getMessage(),
                             Toast.LENGTH_LONG).show();
                 } finally {
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), DaftarAkun.class);
                     startActivity(intent);
                     finish();
                 }

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pc/Desktop/mobisuts_2111500077/app/src/main/res/drawable/bundar.xml" value="0.240625" />
         <entry key="..\:/Users/pc/Desktop/mobisuts_2111500077/app/src/main/res/drawable/side_nav_bar.xml" value="0.225" />
+        <entry key="..\:/Users/pc/Desktop/mobisuts_2111500077/app/src/main/res/layout/activity_daftar_akun.xml" value="0.18" />
         <entry key="..\:/Users/pc/Desktop/mobisuts_2111500077/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/Users/pc/Desktop/mobisuts_2111500077/app/src/main/res/layout/content_main.xml" value="0.22447916666666667" />
       </map>
