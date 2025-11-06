@@ -10,4 +10,5 @@ public class ClassGlobal extends Application {
     public void setURL(String url) {
         URL = url;
     }
+    public static String global_gambar="gambar";
 }
