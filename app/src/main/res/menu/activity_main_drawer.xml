@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:checkableBehavior="single"
+        android:visible="false">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
@@ -17,4 +19,15 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
     </group>
+    <item
+        android:id="@+id/nav_group_akun"
+        android:title="Menu Akun" >
+        <menu >
+            <item
+                android:id="@+id/nav_daftar_akun"
+                android:icon="@drawable/ic_daftar"
+                android:title="Daftar Akun" />
+        </menu>
+    </item>
+
 </menu>

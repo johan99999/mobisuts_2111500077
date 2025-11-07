@@ -122,6 +122,13 @@ public class DaftarAkun extends AppCompatActivity {
                 }
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 
     private void pilihGambar(){
@@ -194,8 +201,8 @@ public class DaftarAkun extends AppCompatActivity {
                             String pesan = jObj.getString("pesan");
                             boolean hasil = jObj.getBoolean("hasil");
                             Toast.makeText(getApplicationContext(), pesan, Toast.LENGTH_SHORT).show();
-                            if (hasil && aksi.equalsIgnoreCase("daftar")) {
-                                finish();
+                            if (aksi.equalsIgnoreCase("daftar")) {
+                                finishAffinity();
                                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                             }
                         } catch (JSONException e) {
